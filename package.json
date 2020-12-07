@@ -1,0 +1,21 @@
+{
+  "name": "sample1-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mostafa Rowghanian",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  }
+}
